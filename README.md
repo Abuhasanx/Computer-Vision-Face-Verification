@@ -24,7 +24,7 @@
 
 ## 1. Dataset Description
 
-**Source:** [Labeled Faces in the Wild — deepfunneled variant (LFW)](http://vis-www.cs.umass.edu/lfw/)
+**Source:** https://www.kaggle.com/datasets/jessicali9530/lfw-dataset
 
 **License / Usage Conditions:**
 LFW is a public academic benchmark dataset collected and distributed for non-commercial research purposes. Images were sourced from news photographs and are freely available for academic use. No law-enforcement mugshots or criminal-record data are used.
