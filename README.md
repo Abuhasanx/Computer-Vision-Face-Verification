@@ -527,5 +527,5 @@ After running the full pipeline, key metrics are saved to `results/roc_metrics.j
 - **LFW image quality:** LFW images were collected from news photographs and vary significantly in resolution, lighting, and pose. Some images fail MTCNN detection at `conf ≥ 0.90` and are skipped — this is logged in `preprocessing_summary.csv`.
 - **Single GPU assumption:** Training and evaluation scripts assume one GPU (or CPU). Multi-GPU is not implemented.
 - **Gallery_probe.py threshold:** The `THRESHOLD = 0.50` in `gallery_probe.py` is a starting point. For production use, replace it with the EER threshold from `roc_metrics.json`.
-- **No ArcFace / CosFace:** Training uses standard Cross-Entropy + Triplet Loss rather than ArcFace/CosFace margin losses. Angular margin losses typically improve open-set verification performance and would be the natural next upgrade.
+- **No CosFace:** Training uses standard Cross-Entropy + Triplet Loss rather than ArcFace/CosFace margin losses. Angular margin losses typically improve open-set verification performance and would be the natural next upgrade.
 - **Static gallery:** The gallery is rebuilt from scratch each run. A production system would persist gallery embeddings to disk.
