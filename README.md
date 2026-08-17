@@ -78,7 +78,7 @@ submission/
 
 ## 3. Installation
 
-**Python:** 3.9 or 3.10 recommended (tested on 3.10).
+**Python:** 3.11 or 3.10 recommended (tested on 3.11).
 
 ```bash
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
