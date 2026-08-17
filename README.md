@@ -1,6 +1,5 @@
 [README.md](https://github.com/user-attachments/files/31151005/README.md)
 # Face Verification / Re-Identification Pipeline
-**Biz Tech Analytics — Technical Assessment**
 
 <img width="1000" height="560" alt="crop_preview_margin0 25_conf0 9" src="https://github.com/user-attachments/assets/c3bad984-857e-4845-bdfd-f7c795aa8734" />
 <img width="650" height="391" alt="Screenshot 2026-08-18 003734" src="https://github.com/user-attachments/assets/540fecfe-c567-4963-b672-68287d0679ea" />
